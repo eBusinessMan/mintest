@@ -8,7 +8,7 @@ import java.util.Properties;
  
 public class JdbcUtils {
  
-	private static String driver = null;
+	private static String driver = "";
 	private static String url = null;
 	private static String username = null;
 	private static String password = null;
@@ -25,6 +25,7 @@ public class JdbcUtils {
 			password = prop.getProperty("password");
 			
 			Class.forName(driver);
+                        int i = 0;
 			
 		}catch (Exception e) {
 			throw new ExceptionInInitializerError(e);
