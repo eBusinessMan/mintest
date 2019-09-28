@@ -26,7 +26,7 @@ public class JdbcUtils {
 			
 			Class.forName(driver);
                         int i = 0;
-			
+                        int j = 0;			
 		}catch (Exception e) {
 			throw new ExceptionInInitializerError(e);
 		}
