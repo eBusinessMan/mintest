@@ -28,7 +28,7 @@ public class CharIo {
             e.printStackTrace();
             System.out.println("还是读不成功啊！");
         }
-        
+        int bananaX = 9;        
     }
     
     /**
