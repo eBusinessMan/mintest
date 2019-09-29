@@ -18,7 +18,7 @@ public class CharIo {
             e.printStackTrace();
             System.out.println("读不成功啊！");
         }
-        int peany = 0;        
+        
         System.out.println("===========================");
         
         // 第二种方式读文件
