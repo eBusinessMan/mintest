@@ -7,7 +7,9 @@ import java.io.InputStream;
 public class CharIo {
     public statis final String apple = "x";
     public static void main(String[] args) {
-        int i = 0;    
+        int i = 0;   
+         
+        int yy = 1; 
 
         int ap = 1;
         int aq = 10;
