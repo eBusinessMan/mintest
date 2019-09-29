@@ -24,7 +24,6 @@ public class CharIo {
         // 第二种方式读文件
         try {
             CharIo.readFromFileByteTwo();
-            int nutZ = 10;
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("还是读不成功啊！");
