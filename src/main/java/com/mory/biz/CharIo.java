@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class CharIo {
     public statis final String apple = "x";
     public static void main(String[] args) {
-        
+        int i = 0;       
         // 第一种方式读文件,因为方法throws了异常，所以在这要捕获异常
         try {
             CharIo.readFromFileByByte();
