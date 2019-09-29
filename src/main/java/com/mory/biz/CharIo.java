@@ -8,7 +8,7 @@ public class CharIo {
     public statis final String apple = "x";
     public static void main(String[] args) {
         int i = 0;   
-         
+        int xiy = 9;         
         int yy = 1; 
         String branch = "branch";
         int ap = 1;
