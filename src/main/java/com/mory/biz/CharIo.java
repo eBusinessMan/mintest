@@ -10,7 +10,8 @@ public class CharIo {
         int i = 0;    
 
         int ap = 1;
-        int aq = 1;
+        int aq = 10;
+        int az = 2;
         // 第一种方式读文件,因为方法throws了异常，所以在这要捕获异常
         try {
             CharIo.readFromFileByByte();
